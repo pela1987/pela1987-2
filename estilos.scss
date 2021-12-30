@@ -1,0 +1,27 @@
+$ancho: 300px;
+$alto: 200px;
+$azul: #536dfe;
+$green: #64DD17;
+ 
+.caja {
+    &__uno{
+        background-color: $green;
+        width: $ancho;
+        height: $alto;
+    }
+    &__dos {
+        background-color: $azul;
+        width: $ancho;
+        height: $alto;
+    }
+    &__tres {
+        background-color: $green;
+        width: $ancho;
+        height: $alto;
+    }
+    &__cuatro{
+        background-color: $green;
+        width: $ancho;
+        height: $alto;
+    }
+}
